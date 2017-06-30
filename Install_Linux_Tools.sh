@@ -1,4 +1,5 @@
 #!/bin/bash
+#Installs all programs in a semi-automated manner.
 
 myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
 p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
