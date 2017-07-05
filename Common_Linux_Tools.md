@@ -60,6 +60,7 @@ and lists  received  information  in  human  readable  form.  For  each
 responded  host  it  lists IP address, NetBIOS computer name, logged-in
 user name and MAC address (such as Ethernet).
 ```
+
 * dsniff
 ```
 dsniff is a password sniffer which handles  FTP,  Telnet,  SMTP,  HTTP,
@@ -67,8 +68,8 @@ POP,  poppass, NNTP, IMAP, SNMP, LDAP, Rlogin, RIP, OSPF, PPTP MS-CHAP,
 NFS, VRRP, YP/NIS, SOCKS, X11, CVS, IRC, AIM, ICQ, Napster, PostgreSQL,
 Meeting  Maker, Citrix ICA, Symantec pcAnywhere, NAI Sniffer, Microsoft
 SMB, Oracle SQL*Net, Sybase and Microsoft SQL protocols.
-
 ```
+
 * etherape
 EtherApe is a network traffic browser.  It  displays  network  activity
 graphically.  It  uses GNOME libraries as its user interface, and libp‐
@@ -80,7 +81,6 @@ cap, a packet capture and filtering library.
 ```
 ettercap  -  multipurpose  sniffer/content filter for man in the middle
 attacks
-
 ```
 
 * reaver
@@ -173,6 +173,15 @@ passphrase.
 
 * htop
 ```
+Htop is a free (GPL) ncurses-based process viewer for Linux.
+
+It  is similar to top, but allows you to scroll vertically and horizon‐
+tally, so you can see all the processes running on  the  system,  along
+with  their  full  command  lines, as well as viewing them as a process
+tree, selecting multiple processes and acting on them all at once.
+
+Tasks related to processes (killing,  renicing)  can  be  done  without
+entering their PIDs.
 
 ```
 
