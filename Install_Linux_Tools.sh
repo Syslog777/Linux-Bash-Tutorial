@@ -4,7 +4,7 @@
 myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
 p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
 firehol htop git get-config nano apt dpkg logkeys denyhosts tiger
-lynis away xtrlock clamtk zenmap lua5.1 sshd)
+lynis away xtrlock clamtk zenmap lua5.1 sshd dsniff)
 
 echo 'password' | sudo -S su
 
