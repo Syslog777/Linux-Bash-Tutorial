@@ -11,9 +11,33 @@ Nmap is commonly used for security audits, many systems and network
 administrators find it useful for routine tasks such as network inventory,
 managing service upgrade schedules, and monitoring host or service uptime. 
 ```
-netdiscover
-ip
-p0f
+
+* netdiscover
+```
+netdiscover is an active/passive  arp  reconnaissance  tool,  initially
+developed  to  gain  information  about  wireless networks without dhcp
+servers in wardriving scenarios. It can also be used on  switched  net‐
+works.  Built  on  top  of  libnet and libpcap, it can passively detect
+online hosts or search for them by sending arp requests.
+
+Furthermore, it can be used to inspect your network's arp  traffic,  or
+find network addresses using auto scan mode, which will scan for common
+local networks.
+```
+
+* ip
+```
+show / manipulate routing, devices, policy routing and tunnel
+```
+
+* p0f
+```
+p0f uses a fingerprinting technique based on analyzing the structure of
+a TCP/IP packet to determine the operating system and other  configura‐
+tion properties of a remote host. The process is completely passive and
+does not generate any suspicious network traffic. The other host has to
+either
+```
 ettercap
 nbtscan
 dsniff
@@ -84,11 +108,16 @@ denyhosts
 --Scanners--
 chkrootkit
 rkhunter
-tiger
 
---Cleaner--
-Stacer
-BleachedBit
+* tiger
+```
+Tiger is a package consisting of Bourne Shell scripts, C code and  data
+files  which  is used for checking for security problems on a UNIX sys‐
+tem.  It scans system configuration files, file systems, and user  con‐
+figuration  files for possible security problems and reports them.  The
+command tigexp(8) can be used to obtain explanations  of  the  problems
+reported by tiger.
+```
 
 * lynis
 ``` 
@@ -124,6 +153,7 @@ The  X  server  screen saver continues to operate normally; if it comes
 into operation the display may be restored by the usual means of touch‐
 ing a key (Shift, for example) or the mouse.
 ```
+
 * away
 ```
 away is a simple program that locks your terminal, checks for new mail
