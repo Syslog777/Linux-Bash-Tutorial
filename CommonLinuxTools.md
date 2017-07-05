@@ -89,8 +89,9 @@ lynis - Lynis is a security auditing tool for Linux and Unix systems. It checks
        ever it not required (see pentest mode).
 
 
-#xtrlock
-    ```xtrlock locks the X server till the user enters their password  at  the
+* xtrlock
+    ```
+       xtrlock locks the X server till the user enters their password  at  the
        keyboard.
 
        While  xtrlock  is  running, the mouse and keyboard are grabbed and the
@@ -109,11 +110,14 @@ lynis - Lynis is a security auditing tool for Linux and Unix systems. It checks
 
        The  X  server  screen saver continues to operate normally; if it comes
        into operation the display may be restored by the usual means of touch‐
-       ing a key (Shift, for example) or the mouse.```
-#away
-    ```away  is a simple program that locks your terminal, checks for new mail
-       in any given number of mailboxes, and lets other users know why you are
-       inactive.```
+       ing a key (Shift, for example) or the mouse.
+       ```
+* away
+    ```
+    away is a simple program that locks your terminal, checks for new mail
+    in any given number of mailboxes, and lets other users know why you are
+    inactive.
+    ```
 
 #To change your password
 psswd - psswd is a program for changing your linux password
