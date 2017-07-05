@@ -150,7 +150,19 @@ data back to the maintainers.
 
 * aircrack-ng
 ```
+aircrack-ng is an 802.11 WEP and WPA/WPA2-PSK key cracking program.
+It can recover the WEP key once enough encrypted packets have been cap‐
+tured with airodump-ng. This part of the aircrack-ng  suite  determines
+the  WEP key using two fundamental methods. The first method is via the
+PTW approach (Pyshkin, Tews, Weinmann). The main advantage of  the  PTW
+approach  is  that  very few data packets are required to crack the WEP
+key. The second method is the FMS/KoreK method.  The  FMS/KoreK  method
+incorporates  various  statistical  attacks to discover the WEP key and
+uses these in combination with brute forcing.
 
+Additionally, the program offers a dictionary  method  for  determining
+the WEP key. For cracking WPA/WPA2 pre-shared keys, a wordlist (file or
+stdin) or an airolib-ng has to be used.
 ```
 
 * ssh
