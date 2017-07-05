@@ -188,56 +188,67 @@ cap, a packet capture and filtering library.
 
 * git
 ```
-
-```
-
-* get-config
-```
-
+Git is a fast, scalable, distributed revision control system with an
+unusually rich command set that provides both high-level operations and
+full access to internals.
 ```
 
 * wget
 ```
-
+GNU Wget is a free utility for non-interactive download of files from
+the Web.  It supports HTTP, HTTPS, and FTP protocols, as well as
+retrieval through HTTP proxies.
 ```
 
 * nano
 ```
-
+nano  is  a small, free and friendly editor which aims to replace Pico,
+the default editor included in the non-free Pine package.   On  top  of
+copying  Pico's  look  and  feel, nano also implements some missing (or
+disabled by default) features in Pico, such as "search and replace" and
+"go to line and column number".
 ```
 
 * logkeys
 ```
-
+logkeys  is a linux keylogger. It is no more advanced than other avail‐
+able linux keyloggers, notably lkl and uberkey, but  is  a  bit  newer,
+more  up  to  date,  it doesn't unreliably repeat keys and it shouldn't
+crash your X. All in all, it just seems to work. It relies on the event
+interface     of    Linux    input    subsystem    (normally    devices
+/dev/input/eventX).
 ```
 
 * ls
 ```
-
+List  information  about  the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+fied.
 ```
 
 * find
 ```
-
+find - search for files in a directory hierarchy
 ```
 
 * firehol
 ```
-
-```
-
-* comodo
-```
-
+firehol - an easy to use but powerful iptables stateful firewall
 ```
 
 * ufw
 ```
+This  program  is  for managing a Linux firewall and aims to provide an
+easy to use interface for the user.
 
 ```
 
 * denyhosts
 ```
+DenyHosts  is a python program that automatically blocks ssh attacks by
+adding entries to /etc/hosts.deny.  DenyHosts will also  inform  system
+administrators  about  offending  hosts,  attacked users and suspicious
+logins.
 
 ```
 
