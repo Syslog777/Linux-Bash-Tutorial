@@ -124,12 +124,28 @@ example text-based frontend, wpa_cli, is included with wpa_supplicant.
 
 * macchanger
 ```
-
+macchanger  is  a  GNU/Linux  utility  for viewing/manipulating the MAC
+address for network interfaces.
 ```
 
 * nikto
 ```
+Examine a web server to find potential problems and security
+vulnerabilities, including:
 
+       *   Server and software misconfigurations
+
+       *   Default files and programs
+
+       *   Insecure files and programs
+
+       *   Outdated servers and programs
+
+Nikto is built on LibWhisker (by RFP) and can run on any platform which
+has a Perl environment. It supports SSL, proxies, host authentication,
+IDS evasion and more. It can be updated automatically from the
+command-line, and supports the optional submission of updated version
+data back to the maintainers.
 ```
 
 * aircrack-ng
