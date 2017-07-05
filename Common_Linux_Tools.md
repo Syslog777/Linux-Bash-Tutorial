@@ -133,13 +133,13 @@ address for network interfaces.
 Examine a web server to find potential problems and security
 vulnerabilities, including:
 
-       *   Server and software misconfigurations
+      ·   Server and software misconfigurations
 
-       *   Default files and programs
+      ·   Default files and programs
 
-       *   Insecure files and programs
+      ·   Insecure files and programs
 
-       *   Outdated servers and programs
+      ·   Outdated servers and programs
 
 Nikto is built on LibWhisker (by RFP) and can run on any platform which
 has a Perl environment. It supports SSL, proxies, host authentication,
