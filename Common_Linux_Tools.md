@@ -78,12 +78,22 @@ cap, a packet capture and filtering library.
 ```
 * ettercap
 ```
+ettercap  -  multipurpose  sniffer/content filter for man in the middle
+attacks
 
 ```
 
 * reaver
 ```
+Reaver  implements  a  brute  force attack against WiFi Protected Setup
+which can crack the WPS pin of an access point in a matter of hours and
+subsequently recover the WPA/WPA2 passphrase.
 
+Specifically,  Reaver targets the registrar functionality of WPS, which
+is flawed in that it only takes 11,000 attempts to  guess  the  correct
+WPS  pin in order to become a WPS registrar. Once registred as a regis‐
+trar with the access point, the access point  will  give  you  the  WPA
+passphrase.
 ```
 
 * arp
@@ -168,22 +178,37 @@ cap, a packet capture and filtering library.
 
 * dpkg
 ```
-
+dpkg - package manager for Debian
 ```
 
 * synaptic
 ```
+Synaptic  is a frontend for the apt package managent system.  It allows
+you to perform all actions of the command line tool apt-get in a graph‐
+ical environemnt. This includes installing, upgrading, downgrading  and
+removing of single packages or even upgrading your whole system.
 
+A manual with detailed instructions can be found in the  help  menu  of
+Synaptic.
 ```
 
 * apt
 ```
-
+apt provides a high-level commandline interface for the package
+management system. It is intended as an end user interface and enables
+some options better suited for interactive usage by default compared to
+more specialized APT tools like apt-get(8) and apt-cache(8).
 ```
 
 * yum
 ```
-
+yum is an interactive, rpm based, package manager. It can automatically
+perform system updates, including dependency analysis and obsolete pro‐
+cessing  based  on "repository" metadata. It can also perform installa‐
+tion of new packages, removal of old packages and  perform  queries  on
+the  installed and/or available packages among many other commands/ser‐
+vices (see below). yum is similar to other high level package  managers
+like apt-get and smart.
 ```
 
 * git
