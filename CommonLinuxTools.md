@@ -52,75 +52,214 @@ tion of many protocols (even ciphered ones) and includes many  features
 for network and host analysis (such as OS fingerprint).
 ```
 
-nbtscan
-dsniff
-etherape
-ettercap
-reaver
-arp
-wpa_supplicant (may have a rootkit)
+* nbtscan
+```
+nbtscan is a program for scanning IP networks for NetBIOS name informa‐
+tion.  It  sends NetBIOS status query to each address in supplied range
+and lists  received  information  in  human  readable  form.  For  each
+responded  host  it  lists IP address, NetBIOS computer name, logged-in
+user name and MAC address (such as Ethernet).
+```
+* dsniff
+```
 
--Stealth-
-macchanger
+```
+* etherape
+```
 
--Cracking-
-nikto
-aircrack-ng
-0d1n
+```
+* ettercap
+```
 
--Remote Connections-
-ssh
-ftp
-telnet
+```
 
--Basic Tools-
-iprange
-net
-less - command line file viewer
+* reaver
+```
 
----Cryptography---
-sha256sum
+```
 
----------------------------------
----System Administration Tools---
+* arp
+```
 
---Terminals--
-xterm
-mateterminal
+```
 
---Process Utility--
-ps
-Stacer
-htop
+* wpa_supplicant (may have a rootkit)
+```
 
---Package and Repository Management--
-dpkg
-synaptic
-apt
-yum
-git
-get-config
-wget
-nano
+```
 
---Keylogger--
-logkeys
+* macchanger
+```
 
---Search--
-ls
-find
---------------
----Security---
+```
 
---Firewalls--
-firehol
-comodo
-ufw
-denyhosts
+* nikto
+```
 
---Scanners--
-chkrootkit
-rkhunter
+```
+
+* aircrack-ng
+```
+
+```
+
+* ssh
+```
+
+```
+
+* ftp
+```
+
+```
+
+* telnet
+```
+
+```
+
+* iprange
+```
+
+```
+
+* net
+```
+
+```
+
+* less
+```
+
+```
+
+* sha256sum
+```
+
+```
+
+* xterm
+```
+
+```
+
+* mateterminal
+```
+
+```
+
+* ps
+```
+
+```
+
+* htop
+```
+
+```
+
+* dpkg
+```
+
+```
+
+* synaptic
+```
+
+```
+
+* apt
+```
+
+```
+
+* yum
+```
+
+```
+
+* git
+```
+
+```
+
+* get-config
+```
+
+```
+
+* wget
+```
+
+```
+
+* nano
+```
+
+```
+
+* logkeys
+```
+
+```
+
+* ls
+```
+
+```
+
+* find
+```
+
+```
+
+* firehol
+```
+
+```
+
+* comodo
+```
+
+```
+
+* ufw
+```
+
+```
+
+* denyhosts
+```
+
+```
+
+* chkrootkit
+```
+chkrootkit  examines  certain  elements of the target system and deter‐
+mines whether they have been tampered with. Some tools which chkrootkit
+applies  while  analyzing  binaries  and  log  files  can  be  found at
+/usr/lib/chkrootkit.
+
+```
+
+* rkhunter
+```
+rkhunter is  a  shell  script  which carries out various checks on the
+local system to try and detect known rootkits and malware. It also per‐
+forms  checks  to  see  if  commands  have been modified, if the system
+startup files have been modified, and various  checks  on  the  network
+interfaces, including checks for listening applications.
+
+rkhunter  has  been written to be as generic as possible, and so should
+run on most Linux and UNIX systems. It is provided  with  some  support
+scripts should certain commands be missing from the system, and some of
+these are perl scripts.  rkhunter does require certain commands  to  be
+present  for it to be able to execute. Additionally, some tests require
+specific commands, but if these are not present then the test  will  be
+skipped.  rkhunter needs to be run under a Bourne-type shell, typically
+bash or ksh. rkhunter can be run  as  a  cron  job  or  from  the  com‐
+mand-line.
+```
 
 * tiger
 ```
