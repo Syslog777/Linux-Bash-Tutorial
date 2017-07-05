@@ -176,21 +176,32 @@ can also be forwarded over the secure channel.
 
 * ftp
 ```
-
+ ftp — Internet file transfer program
 ```
 
 * telnet
 ```
-
+The telnet command is used for interactive communication with another
+host using the TELNET protocol. It begins in command mode, where it
+prints a telnet prompt ("telnet> "). If telnet is invoked with a host
+argument, it performs an open command implicitly; see the description
+below.
 ```
 
 * iprange
 ```
-
+iprange - manage IP ranges
 ```
 
 * net
 ```
+The Samba net utility is meant to work just like the net utility
+available for windows and DOS. The first argument should be used to
+specify the protocol to use when executing a certain command. ADS is
+used for ActiveDirectory, RAP is using for old (Win9x/NT3) clients and
+RPC can be used for NT4 and Windows 2000. If this argument is omitted,
+net will try to determine it automatically. Not all commands are
+available on all protocols.
 
 ```
 
