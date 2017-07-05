@@ -62,9 +62,17 @@ user name and MAC address (such as Ethernet).
 ```
 * dsniff
 ```
+dsniff is a password sniffer which handles  FTP,  Telnet,  SMTP,  HTTP,
+POP,  poppass, NNTP, IMAP, SNMP, LDAP, Rlogin, RIP, OSPF, PPTP MS-CHAP,
+NFS, VRRP, YP/NIS, SOCKS, X11, CVS, IRC, AIM, ICQ, Napster, PostgreSQL,
+Meeting  Maker, Citrix ICA, Symantec pcAnywhere, NAI Sniffer, Microsoft
+SMB, Oracle SQL*Net, Sybase and Microsoft SQL protocols.
 
 ```
 * etherape
+EtherApe is a network traffic browser.  It  displays  network  activity
+graphically.  It  uses GNOME libraries as its user interface, and libp‐
+cap, a packet capture and filtering library.
 ```
 
 ```
