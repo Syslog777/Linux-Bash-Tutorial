@@ -38,7 +38,20 @@ tion properties of a remote host. The process is completely passive and
 does not generate any suspicious network traffic. The other host has to
 either
 ```
-ettercap
+
+* ettercap
+```
+ettercap  -  multipurpose  sniffer/content filter for man in the middle
+attacks.
+
+Ettercap was born as a sniffer for switched  LAN  (and  obviously  even
+"hubbed"  ones),  but during the development process it has gained more
+and more features that have changed it to a powerful and flexible  tool
+for  man-in-the-middle attacks.  It supports active and passive dissec‐
+tion of many protocols (even ciphered ones) and includes many  features
+for network and host analysis (such as OS fingerprint).
+```
+
 nbtscan
 dsniff
 etherape
