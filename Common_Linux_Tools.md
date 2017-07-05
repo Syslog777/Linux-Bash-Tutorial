@@ -77,7 +77,6 @@ graphically.  It  uses GNOME libraries as its user interface, and libp‐
 cap, a packet capture and filtering library.
 ```
 
-```
 * ettercap
 ```
 ettercap  -  multipurpose  sniffer/content filter for man in the middle
@@ -220,7 +219,6 @@ tree, selecting multiple processes and acting on them all at once.
 
 Tasks related to processes (killing,  renicing)  can  be  done  without
 entering their PIDs.
-
 ```
 
 * dpkg
@@ -312,7 +310,6 @@ firehol - an easy to use but powerful iptables stateful firewall
 ```
 This  program  is  for managing a Linux firewall and aims to provide an
 easy to use interface for the user.
-
 ```
 
 * denyhosts
@@ -321,7 +318,6 @@ DenyHosts  is a python program that automatically blocks ssh attacks by
 adding entries to /etc/hosts.deny.  DenyHosts will also  inform  system
 administrators  about  offending  hosts,  attacked users and suspicious
 logins.
-
 ```
 
 * chkrootkit
@@ -330,7 +326,6 @@ chkrootkit  examines  certain  elements of the target system and deter‐
 mines whether they have been tampered with. Some tools which chkrootkit
 applies  while  analyzing  binaries  and  log  files  can  be  found at
 /usr/lib/chkrootkit.
-
 ```
 
 * rkhunter
