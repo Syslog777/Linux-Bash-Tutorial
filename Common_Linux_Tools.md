@@ -71,6 +71,7 @@ SMB, Oracle SQL*Net, Sybase and Microsoft SQL protocols.
 ```
 
 * etherape
+```
 EtherApe is a network traffic browser.  It  displays  network  activity
 graphically.  It  uses GNOME libraries as its user interface, and libp‐
 cap, a packet capture and filtering library.
@@ -98,12 +99,28 @@ passphrase.
 
 * arp
 ```
+Arp  manipulates or displays the kernel's IPv4 network neighbour cache.
+It can add entries to the table, delete one or display the current con‐
+tent.
+
+ARP  stands  for Address Resolution Protocol, which is used to find the
+media access control address of a network neighbour for  a  given  IPv4
+Address.
 
 ```
 
-* wpa_supplicant (may have a rootkit)
+* wpa_supplicant
 ```
+wpa_supplicant  is  an  implementation of the WPA Supplicant component,
+i.e., the part that runs in the client stations. It implements WPA  key
+negotiation  with  a  WPA  Authenticator  and  EAP  authentication with
+Authentication Server. In addition, it controls the  roaming  and  IEEE
+802.11 authentication/association of the wireless LAN driver.
 
+wpa_supplicant  is  designed  to be a "daemon" program that runs in the
+background and acts as the backend component controlling  the  wireless
+connection.  wpa_supplicant  supports separate frontend programs and an
+example text-based frontend, wpa_cli, is included with wpa_supplicant.
 ```
 
 * macchanger
@@ -148,16 +165,34 @@ passphrase.
 
 * less
 ```
+Less is a program similar to more (1), but it has many  more  features.
+Less  does  not  have to read the entire input file before starting, so
+with large input files it starts up faster than text  editors  like  vi
+(1).  Less uses termcap (or terminfo on some systems), so it can run on
+a variety of terminals.  There is even  limited  support  for  hardcopy
+terminals.   (On  a hardcopy terminal, lines which should be printed at
+the top of the screen are prefixed with a caret.)
 
+Commands are based on both more and vi.  Commands may be preceded by  a
+decimal number, called N in the descriptions below.  The number is used
+by some commands, as indicated.
 ```
 
 * sha256sum
 ```
-
+sha256sum - computs, print and check SHA256 message digests.
 ```
 
 * xterm
 ```
+The  xterm  program is a terminal emulator for the X Window System.  It
+provides DEC VT102/VT220 and selected features from higher-level termi‐
+nals  such  as  VT320/VT420/VT520  (VTxxx).  It also provides Tektronix
+4014 emulation for programs that cannot use the window system directly.
+If the underlying operating system supports terminal resizing capabili‐
+ties (for example, the SIGWINCH signal in systems derived from 4.3BSD),
+xterm  will use the facilities to notify programs running in the window
+whenever it is resized.
 
 ```
 
@@ -168,6 +203,9 @@ passphrase.
 
 * ps
 ```
+ps displays information about a selection of the active processes.  If
+you want a repetitive update of the selection and the displayed
+information, use top instead.
 
 ```
 
