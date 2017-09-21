@@ -33,6 +33,44 @@ With this you will be able to:
   - [The Art of Port Scanning - by Fyodor][nps1]
   - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
 
+### Batch file installation 
+
+This script installs all most of the
+essential applications in a semi-automated manner.
+Here are the steps to making this script work on your Linux
+computer:
+ - Create a file named "install_all.sh"
+ - Open that file, then copy the code below and paste it
+   into that file.
+ - Save the file, then open up a terminal in the same place
+   the file is in. You should be able to see the file if you
+   type "ls" from within the console.
+ - Now type "chmod u+x". This will make the file executable.
+ - Next, place this file in the "/bin" directory.
+ - Lastly, type install_all.sh in your terminal.
+```sh
+#!/bin/bash
+myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
+p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
+firehol htop git get-config nano apt dpkg logkeys denyhosts tiger
+lynis away xtrlock clamtk zenmap lua5.1 sshd dsniff yum mate-terminal
+samba-common-bin aircrack-ng iprange cmake linuxlogo)
+printf "
+Produced by
+    ____  _ __  ______          __         
+   / __ )(_) /_/ ____/___  ____/ /__  _____
+  / __  / / __/ /   / __ \/ __  / _ \/ ___/
+ / /_/ / / /_/ /___/ /_/ / /_/ /  __/ /    
+/_____/_/\__/\____/\____/\__,_/\___/_/ 
+"
+sudo su
+
+for program in "${myarray[@]}" 
+do
+    sudo apt-get install $program
+done
+```
+
 # Essential Linux Programs
     
  - Nmap ("Network Mapper") is an open source tool for network exploration
@@ -323,141 +361,6 @@ inactive.
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
-
-
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-
-### Batch file installation 
-
-This script installs all most of the
-essential applications in a semi-automated manner.
-Here are the steps to making this script work on your Linux
-computer:
- - Create a file named "install_all.sh"
- - Open that file, then copy the code below and paste it
-   into that file.
- - Save the file, then open up a terminal in the same place
-   the file is in. You should be able to see the file if you
-   type "ls" from within the console.
- - Now type "chmod u+x". This will make the file executable.
- - Next, place this file in the "/bin" directory.
- - Lastly, type install_all.sh in your terminal.
-```sh
-#!/bin/bash
-myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
-p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
-firehol htop git get-config nano apt dpkg logkeys denyhosts tiger
-lynis away xtrlock clamtk zenmap lua5.1 sshd dsniff yum mate-terminal
-samba-common-bin aircrack-ng iprange cmake linuxlogo)
-printf "
-Produced by
-    ____  _ __  ______          __         
-   / __ )(_) /_/ ____/___  ____/ /__  _____
-  / __  / / __/ /   / __ \/ __  / _ \/ ___/
- / /_/ / / /_/ /___/ /_/ / /_/ /  __/ /    
-/_____/_/\__/\____/\____/\__,_/\___/_/ 
-"
-sudo su
-
-for program in "${myarray[@]}" 
-do
-    sudo apt-get install $program
-done
-```
-
-### Plugins
-
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md] [PlDb] |
-| Github | [plugins/github/README.md] [PlGh] |
-| Google Drive | [plugins/googledrive/README.md] [PlGd] |
-| OneDrive | [plugins/onedrive/README.md] [PlOd] |
-| Medium | [plugins/medium/README.md] [PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md] [PlGa] |
-
-
-### Development
-
-Want to contribute? Great!
-
-Dillinger uses Gulp + Webpack for fast developing.
-Make a change in your file and instantanously see your updates!
-
-Open your favorite Terminal and run these commands.
-
-First Tab:
-```sh
-$ node app
-```
-
-Second Tab:
-```sh
-$ gulp watch
-```
-
-(optional) Third:
-```sh
-$ karma test
-```
-#### Building for source
-For production release:
-```sh
-$ gulp build --prod
-```
-Generating pre-built zip archives for distribution:
-```sh
-$ gulp build dist --prod
-```
-### Docker
-Dillinger is very easy to install and deploy in a Docker container.
-
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
-
-```sh
-cd dillinger
-docker build -t joemccann/dillinger:${package.json.version}
-```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
-```
-
-Verify the deployment by navigating to your server address in your preferred browser.
-
-```sh
-127.0.0.1:8000
-```
-
-#### Kubernetes + Google Cloud
-
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
-
-          classes or methods. Especially renaming of identifiers (s. option 'ren') can benefit from information about external classes.          
-
-\<destination>: destination directory 
-
-\<option>, \<value>: a command-line option with the corresponding value (see "Command-line options" below).
-
-##### Examples:
-
-`java -jar fernflower.jar -hes=0 -hdc=0 c:\Temp\binary\ -e=c:\Java\rt.jar c:\Temp\source\`
-
-`java -jar fernflower.jar -dgs=1 c:\Temp\binary\library.jar c:\Temp\binary\Boot.class c:\Temp\source\`
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
