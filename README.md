@@ -1,6 +1,6 @@
 # Bash-101
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![N|Solid](http://jon.dehdari.org/images/logos/bash.png)
 # Table of Contents
  - [About Bash-101](#about-bash-101)
  - [Essential Linux Programs](#essential-linux-programs)
