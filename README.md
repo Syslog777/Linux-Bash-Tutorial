@@ -10,7 +10,7 @@ With this you will be able to:
   - Perform pentesting such as MiTM, sniffing and Wifi hacks
   - And so much more
 
-# Common Linux Programs
+# Essential Linux Programs
     
  - Nmap ("Network Mapper") is an open source tool for network exploration
 and security auditing. It was designed to rapidly scan large networks,
