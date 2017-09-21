@@ -387,12 +387,3 @@ inactive.
    [apt]: <https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache>
    [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
