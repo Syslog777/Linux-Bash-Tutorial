@@ -13,7 +13,8 @@ With this you will be able to:
 # Tutorials
 > All of the tutorials listed below have been proofread. If there
 > are any errors in any of the tutorials, please notify me by
-> forking a branch and inserting comments in the [README.md][rmf]file
+> forking a branch and inserting comments in the [README.md][rmf] 
+> file
 
 - Getting started
   - [Writing a Simple Bash Script][jzb]
