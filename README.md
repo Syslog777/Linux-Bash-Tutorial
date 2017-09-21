@@ -17,6 +17,9 @@ With this you will be able to:
 > file
 
 - Getting started
+  - [Installing applications using apt][apt]
+  - [Basic Usage of 'ls' Command in Linux With Examples][ls]
+  - [HowTo: Use pwd Command In Linux / UNIX][pwd]
   - [Writing a Simple Bash Script][jzb]
 - Nmap
   - [Nmap Network Scanning][ns1]
@@ -469,7 +472,18 @@ See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETE
    [ns2]: <http://www.hackingtutorials.org/scanning-tutorials/scanning-for-live-hosts-with-nmap/>
    [nps1]: <https://nmap.org/nmap_doc.html>
    [nps2]: <http://www.hackingtutorials.org/scanning-tutorials/port-scanning-and-os-detection-with-nmap/>
-
+   [apt]: <https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache>
+   [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
+   [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
