@@ -4,6 +4,7 @@
 # Table of Contents
  - [About Bash-101](#about-bash-101)
  - [Essential Linux Programs](#essential-linux-programs)
+ - [Batch file installation ](#Batch-file-installation)
 
 ##### About Bash-101
   Bash is the command language interpreter or shell script interpreter for the GNU operating system. This guide is designed to as a all-in-one guide for Linux noobs and pros alike.
@@ -482,4 +483,12 @@ See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETE
    [apt]: <https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache>
    [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
+   []: <>
    []: <>
