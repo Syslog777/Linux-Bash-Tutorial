@@ -300,16 +300,16 @@ inactive.
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
+# Tutorials
+> All of the tutorials listed below have been proofread. If there
+> are any errors in any of the tutorials, please notify me by
+> forking a branch and inserting comments in the README.md file
 
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
+- Getting started
+  - [Writing a Simple Bash Script][jzb]
+- Nmap
+  - 
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
@@ -533,6 +533,16 @@ provide new names for classes, methods and fields respectively.
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
    [Gulp]: <http://gulpjs.com>
+   [jzb]: <https://www.linux.com/LEARN/writing-simple-bash-script>
+   [rmf]: <https://github.com/YoungCode26/Bash-Shell-Scripting/blob/master/README.md>
+   [nmap_scanning1]: <https://nmap.org/book/man-examples.html>
+   [nmap_scanning2]: <http://www.hackingtutorials.org/scanning-tutorials/scanning-for-live-hosts-with-nmap/>
+   [nps1]: <https://nmap.org/nmap_doc.html>
+   [nps2]: <http://www.hackingtutorials.org/scanning-tutorials/port-scanning-and-os-detection-with-nmap/>
+   [nps3]: <https://github.com/YoungCode26/Bash-Shell-Scripting/blob/master/README.md>
+   []: <>
+   []: <>
+   []: <>
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
