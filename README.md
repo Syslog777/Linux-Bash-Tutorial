@@ -76,9 +76,7 @@ passphrase.
 
 - arp  manipulates or displays the kernel's IPv4 network neighbour cache.
 It can add entries to the table, delete one or display the current con‐
-tent.
-
-ARP  stands  for Address Resolution Protocol, which is used to find the
+tent. ARP stands  for Address Resolution Protocol, which is used to find the
 media access control address of a network neighbour for  a  given  IPv4
 Address.
 
@@ -158,10 +156,6 @@ a variety of terminals.  There is even  limited  support  for  hardcopy
 terminals.   (On  a hardcopy terminal, lines which should be printed at
 the top of the screen are prefixed with a caret.)
 
-Commands are based on both more and vi.  Commands may be preceded by  a
-decimal number, called N in the descriptions below.  The number is used
-by some commands, as indicated.
-
 - sha256sum - computs, print and check SHA256 message digests.
 
 - xterm  is a terminal emulator for the X Window System.  It
@@ -173,51 +167,33 @@ ties (for example, the SIGWINCH signal in systems derived from 4.3BSD),
 xterm  will use the facilities to notify programs running in the window
 whenever it is resized.
 
-    mateterminal
-
-
-    ps
-
-ps displays information about a selection of the active processes.  If
+- ps displays information about a selection of the active processes.  If
 you want a repetitive update of the selection and the displayed
 information, use top instead.
 
-    htop
-
-Htop is a free (GPL) ncurses-based process viewer for Linux.
-
+- htop is a free (GPL) ncurses-based process viewer for Linux.
 It  is similar to top, but allows you to scroll vertically and horizon‐
 tally, so you can see all the processes running on  the  system,  along
 with  their  full  command  lines, as well as viewing them as a process
 tree, selecting multiple processes and acting on them all at once.
-
 Tasks related to processes (killing,  renicing)  can  be  done  without
 entering their PIDs.
 
-    dpkg
+- dpkg - package manager for Debian
 
-dpkg - package manager for Debian
-
-    synaptic
-
-Synaptic  is a frontend for the apt package managent system.  It allows
+- synaptic  is a frontend for the apt package managent system.  It allows
 you to perform all actions of the command line tool apt-get in a graph‐
 ical environemnt. This includes installing, upgrading, downgrading  and
 removing of single packages or even upgrading your whole system.
-
 A manual with detailed instructions can be found in the  help  menu  of
 Synaptic.
 
-    apt
-
-apt provides a high-level commandline interface for the package
+- apt provides a high-level commandline interface for the package
 management system. It is intended as an end user interface and enables
 some options better suited for interactive usage by default compared to
 more specialized APT tools like apt-get(8) and apt-cache(8).
 
-    yum
-
-yum is an interactive, rpm based, package manager. It can automatically
+- yum is an interactive, rpm based, package manager. It can automatically
 perform system updates, including dependency analysis and obsolete pro‐
 cessing  based  on "repository" metadata. It can also perform installa‐
 tion of new packages, removal of old packages and  perform  queries  on
@@ -225,76 +201,53 @@ the  installed and/or available packages among many other commands/ser‐
 vices (see below). yum is similar to other high level package  managers
 like apt-get and smart.
 
-    git
-
-Git is a fast, scalable, distributed revision control system with an
+- git is a fast, scalable, distributed revision control system with an
 unusually rich command set that provides both high-level operations and
 full access to internals.
 
-    wget
-
-GNU Wget is a free utility for non-interactive download of files from
+- wget is a free utility for non-interactive download of files from
 the Web.  It supports HTTP, HTTPS, and FTP protocols, as well as
 retrieval through HTTP proxies.
 
-    nano
-
-nano  is  a small, free and friendly editor which aims to replace Pico,
+- nano  is  a small, free and friendly editor which aims to replace Pico,
 the default editor included in the non-free Pine package.   On  top  of
 copying  Pico's  look  and  feel, nano also implements some missing (or
 disabled by default) features in Pico, such as "search and replace" and
 "go to line and column number".
 
-    logkeys
-
-logkeys  is a linux keylogger. It is no more advanced than other avail‐
+- logkeys  is a linux keylogger. It is no more advanced than other avail‐
 able linux keyloggers, notably lkl and uberkey, but  is  a  bit  newer,
 more  up  to  date,  it doesn't unreliably repeat keys and it shouldn't
 crash your X. All in all, it just seems to work. It relies on the event
 interface     of    Linux    input    subsystem    (normally    devices
 /dev/input/eventX).
 
-    ls
-
-List  information  about  the FILEs (the current directory by default).
+- ls (list)  information  about  the FILEs (the current directory by default).
 Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
 fied.
 
-    find
+- find - search for files in a directory hierarchy
 
-find - search for files in a directory hierarchy
+- firehol - an easy to use but powerful iptables stateful firewall
 
-    firehol
-
-firehol - an easy to use but powerful iptables stateful firewall
-
-    ufw
-
-This  program  is  for managing a Linux firewall and aims to provide an
+- ufw is for managing a Linux firewall and aims to provide an
 easy to use interface for the user.
 
-    denyhosts
-
-DenyHosts  is a python program that automatically blocks ssh attacks by
+- denyHosts  is a python program that automatically blocks ssh attacks by
 adding entries to /etc/hosts.deny.  DenyHosts will also  inform  system
 administrators  about  offending  hosts,  attacked users and suspicious
 logins.
 
-    chkrootkit
-
-chkrootkit  examines  certain  elements of the target system and deter‐
+- chkrootkit  examines  certain  elements of the target system and deter‐
 mines whether they have been tampered with. Some tools which chkrootkit
 applies  while  analyzing  binaries  and  log  files  can  be  found at
 /usr/lib/chkrootkit.
 
-    rkhunter
-
-rkhunter is  a  shell  script  which carries out various checks on the
+- rkhunter is  a  shell  script  which carries out various checks on the
 local system to try and detect known rootkits and malware. It also per‐
 forms  checks  to  see  if  commands  have been modified, if the system
 startup files have been modified, and various  checks  on  the  network
 interfaces, including checks for listening applications.
-
 rkhunter  has  been written to be as generic as possible, and so should
 run on most Linux and UNIX systems. It is provided  with  some  support
 scripts should certain commands be missing from the system, and some of
@@ -305,18 +258,14 @@ skipped.  rkhunter needs to be run under a Bourne-type shell, typically
 bash or ksh. rkhunter can be run  as  a  cron  job  or  from  the  com‐
 mand-line.
 
-    tiger
-
-Tiger is a package consisting of Bourne Shell scripts, C code and  data
+- tiger is a package consisting of Bourne Shell scripts, C code and  data
 files  which  is used for checking for security problems on a UNIX sys‐
 tem.  It scans system configuration files, file systems, and user  con‐
 figuration  files for possible security problems and reports them.  The
 command tigexp(8) can be used to obtain explanations  of  the  problems
 reported by tiger.
 
-    lynis
-
-Lynis is a security auditing tool for Linux and Unix systems. It checks
+ - lynis is a security auditing tool for Linux and Unix systems. It checks
 the system and software configurations, to determine any  improvements.
 All details are logged in a log file. Findings and other data is stored
 in a report file, which can be used to create auditing reports.   Lynis
@@ -324,44 +273,30 @@ can  be  run as a cronjob, or from the command line. Lynis prefers root
 permissions (or sudo), so it can access all parts of the  system,  how‐
 ever it not required (see pentest mode).
 
-    xtrlock
-
-xtrlock locks the X server till the user enters their password  at  the
-keyboard.
-
-While  xtrlock  is  running, the mouse and keyboard are grabbed and the
-mouse cursor becomes a padlock.  Output displayed by  X  programs,  and
+- xtrlock locks the X server till the user enters their password  at  the
+keyboard. While  xtrlock  is  running, the mouse and keyboard are grabbed
+and the mouse cursor becomes a padlock.  Output displayed by  X  programs,  and
 windows  put  up  by new X clients, continue to be visible, and any new
 output is displayed normally.
-
 The mouse and keyboard are returned when the user types their password,
 followed  by Enter or Newline.  If an incorrect password is entered the
 bell is sounded.  Pressing Backspace or Delete erases one character  of
 a  password  partially  typed; pressing Escape or Clear clears anything
 that has been entered.
-
 If too many attempts are made in too short a  time  further  keystrokes
 generate bells and are otherwise ignored until a timeout has expired.
-
 The  X  server  screen saver continues to operate normally; if it comes
 into operation the display may be restored by the usual means of touch‐
 ing a key (Shift, for example) or the mouse.
 
-    away
-
-away is a simple program that locks your terminal, checks for new mail
+- away is a simple program that locks your terminal, checks for new mail
 in any given number of mailboxes, and lets other users know why you are
 inactive.
 
-- psswd
-psswd is a program for changing your linux password
+- psswd is a program for changing your linux password
 
-- pwd
-Print the full filename of the current working directory.
-
-
-
-You can also:
+- pwd 
+  - prints the full filename of the current working directory. 
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
