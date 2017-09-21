@@ -9,6 +9,19 @@ With this you will be able to:
   - Use the Linux terminal/command line
   - Perform pentesting such as MiTM, sniffing and Wifi hacks
   - And so much more
+ 
+# Tutorials
+> All of the tutorials listed below have been proofread. If there
+> are any errors in any of the tutorials, please notify me by
+> forking a branch and inserting comments in the [README.md][rmf]file
+
+- Getting started
+  - [Writing a Simple Bash Script][jzb]
+- Nmap
+  - [Nmap Network Scanning][ns1]
+  - [Live hosts scanning with Nmap][ns2]
+  - [The Art of Port Scanning - by Fyodor][nps1]
+  - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
 
 # Essential Linux Programs
     
@@ -300,15 +313,7 @@ inactive.
   - Import and save files from GitHub, Dropbox, Google Drive and One Drive
   - Drag and drop markdown and HTML files into Dillinger
   - Export documents as Markdown, HTML and PDF
-# Tutorials
-> All of the tutorials listed below have been proofread. If there
-> are any errors in any of the tutorials, please notify me by
-> forking a branch and inserting comments in the README.md file
 
-- Getting started
-  - [Writing a Simple Bash Script][jzb]
-- Nmap
-  - 
 
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
@@ -428,27 +433,7 @@ See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETE
  - Write MORE Tests
  - Add Night Mode
 
-# FernFlower
-License
-----
-Fernflower is licenced under the [Apache Licence Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-##### About Fernflower
-
-Fernflower is the first actually working analytical decompiler for Java and 
-probably for a high-level programming language in general. Naturally it is still 
-under development, please send your bug reports and improvement suggestions at 
-fernflower.decompiler@gmail.com
-
-### Running from command line
-
-`java -jar fernflower.jar [-<option>=<value>]* [<source>]+ <destination>`
-
-\* means 0 or more times\
-\+ means 1 or more times
-
-\<source>: file or directory with files to be decompiled. Directories are recursively scanned. Allowed file extensions are class, zip and jar.
-          Sources prefixed with -e= mean "library" files that won't be decompiled, but taken into account when analysing relationships between 
           classes or methods. Especially renaming of identifiers (s. option 'ren') can benefit from information about external classes.          
 
 \<destination>: destination directory 
@@ -460,62 +445,6 @@ fernflower.decompiler@gmail.com
 `java -jar fernflower.jar -hes=0 -hdc=0 c:\Temp\binary\ -e=c:\Java\rt.jar c:\Temp\source\`
 
 `java -jar fernflower.jar -dgs=1 c:\Temp\binary\library.jar c:\Temp\binary\Boot.class c:\Temp\source\`
-
-### Command-line options
-
-With the exception of mpm and urc the value of 1 means the option is activated, 0 - deactivated. Default 
-value, if any, is given between parentheses.
-
-Typically, the following options will be changed by user, if any: hes, hdc, dgs, mpm, ren, urc 
-The rest of options can be left as they are: they are aimed at professional reverse engineers.
-
-- rbr (1): hide bridge methods
-- rsy (0): hide synthetic class members
-- din (1): decompile inner classes
-- dc4 (1): collapse 1.4 class references
-- das (1): decompile assertions
-- hes (1): hide empty super invocation
-- hdc (1): hide empty default constructor
-- dgs (0): decompile generic signatures
-- ner (1): assume return not throwing exceptions
-- den (1): decompile enumerations
-- rgn (1): remove getClass() invocation, when it is part of a qualified new statement
-- lit (0): output numeric literals "as-is"
-- asc (0): encode non-ASCII characters in string and character literals as Unicode escapes
-- bto (1): interpret int 1 as boolean true (workaround to a compiler bug)
-- nns (1): allow for not set synthetic attribute (workaround to a compiler bug)
-- uto (1): consider nameless types as java.lang.Object (workaround to a compiler architecture flaw)
-- udv (1): reconstruct variable names from debug information, if present
-- rer (1): remove empty exception ranges
-- fdi (1): de-inline finally structures
-- mpm (0): maximum allowed processing time per decompiled method, in seconds. 0 means no upper limit
-- ren (0): rename ambiguous (resp. obfuscated) classes and class elements
-- urc: full name of user-supplied class implementing IIdentifierRenamer. It is used to determine which class identifiers
-         should be renamed and provides new identifier names (see "Renaming identifiers")
-- inn (1): check for IntelliJ IDEA-specific @NotNull annotation and remove inserted code if found
-- lac (0): decompile lambda expressions to anonymous classes
-- nls (0): define new line character to be used for output. 0 - '\r\n' (Windows), 1 - '\n' (Unix), default is OS-dependent
-- ind: indentation string (default is 3 spaces)
-- log (INFO): a logging level, possible values are TRACE, INFO, WARN, ERROR
-
-### Renaming identifiers
-
-Some obfuscators give classes and their member elements short, meaningless and above all ambiguous names. Recompiling of such
-code leads to a great number of conflicts. Therefore it is advisable to let the decompiler rename elements in its turn, 
-ensuring uniqueness of each identifier.
-
-Option 'ren' (i.e. -ren=1) activates renaming functionality. Default renaming strategy goes as follows:
-- rename an element if its name is a reserved word or is shorter than 3 characters
-- new names are built according to a simple pattern: (class|method|field)_\<consecutive unique number>  
-You can overwrite this rules by providing your own implementation of the 4 key methods invoked by the decompiler while renaming. Simply 
-pass a class that implements org.jetbrains.java.decompiler.main.extern.IIdentifierRenamer in the option 'urc'
-(e.g. -urc=com.example.MyRenamer) to Fernflower. The class must be available on the application classpath.
-
-The meaning of each method should be clear from naming: toBeRenamed determine whether the element will be renamed, while the other three
-provide new names for classes, methods and fields respectively.  
-
-
-**Linux Noobs!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
@@ -535,14 +464,10 @@ provide new names for classes, methods and fields respectively.
    [Gulp]: <http://gulpjs.com>
    [jzb]: <https://www.linux.com/LEARN/writing-simple-bash-script>
    [rmf]: <https://github.com/YoungCode26/Bash-Shell-Scripting/blob/master/README.md>
-   [nmap_scanning1]: <https://nmap.org/book/man-examples.html>
-   [nmap_scanning2]: <http://www.hackingtutorials.org/scanning-tutorials/scanning-for-live-hosts-with-nmap/>
+   [ns1]: <https://nmap.org/book/man-examples.html>
+   [ns2]: <http://www.hackingtutorials.org/scanning-tutorials/scanning-for-live-hosts-with-nmap/>
    [nps1]: <https://nmap.org/nmap_doc.html>
    [nps2]: <http://www.hackingtutorials.org/scanning-tutorials/port-scanning-and-os-detection-with-nmap/>
-   [nps3]: <https://github.com/YoungCode26/Bash-Shell-Scripting/blob/master/README.md>
-   []: <>
-   []: <>
-   []: <>
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
