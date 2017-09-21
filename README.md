@@ -326,40 +326,43 @@ inactive.
 
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
-### Tech
 
-Dillinger uses a number of open source projects to work properly:
+### Batch file installation 
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-### Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
+This script installs all most of the
+essential applications in a semi-automated manner.
+Here are the steps to making this script work on your Linux
+computer:
+ - Create a file named "install_all.sh"
+ - Open that file, then copy the code below and paste it
+   into that file.
+ - Save the file, then open up a terminal in the same place
+   the file is in. You should be able to see the file if you
+   type "ls" from within the console.
+ - Now type "chmod u+x". This will make the file executable.
+ - Next, place this file in the "/bin" directory.
+ - Lastly, type install_all.sh in your terminal.
 ```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
+#!/bin/bash
+myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
+p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
+firehol htop git get-config nano apt dpkg logkeys denyhosts tiger
+lynis away xtrlock clamtk zenmap lua5.1 sshd dsniff yum mate-terminal
+samba-common-bin aircrack-ng iprange cmake linuxlogo)
+printf "
+Produced by
+    ____  _ __  ______          __         
+   / __ )(_) /_/ ____/___  ____/ /__  _____
+  / __  / / __/ /   / __ \/ __  / _ \/ ___/
+ / /_/ / / /_/ /___/ /_/ / /_/ /  __/ /    
+/_____/_/\__/\____/\____/\__,_/\___/_/ 
+"
+sudo su
 
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
+for program in "${myarray[@]}" 
+do
+    sudo apt-get install $program
+done
 ```
 
 ### Plugins
@@ -479,14 +482,6 @@ See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETE
    [apt]: <https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache>
    [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
-   []: <>
    []: <>
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
