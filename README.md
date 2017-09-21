@@ -2,7 +2,8 @@
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 # Table of Contents
- -[About Bash-101](#-about-bash-101)
+ - [About Bash-101](#about-bash-101)
+ - [Essential Linux Programs](#essential-linux-programs)
 
 ##### About Bash-101
   Bash is the command language interpreter or shell script interpreter for the GNU operating system. This guide is designed to as a all-in-one guide for Linux noobs and pros alike.
