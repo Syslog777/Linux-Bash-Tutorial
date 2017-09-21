@@ -3,8 +3,9 @@
 ![N|Solid](http://jon.dehdari.org/images/logos/bash.png)
 # Table of Contents
  - [About Bash-101](#about-bash-101)
+ - [Tutorials](#tutorials)
  - [Essential Linux Programs](#essential-linux-programs)
- - [Batch file installation](###Batch-file-installation)
+ - [Batch file installation](#batch-file-installation)
 
 ##### About Bash-101
   Bash is the command language interpreter or shell script interpreter for the GNU operating system. This guide is designed to as a all-in-one guide for Linux noobs and pros alike.
