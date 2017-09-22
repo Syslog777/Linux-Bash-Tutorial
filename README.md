@@ -23,6 +23,7 @@ With this you will be able to:
 > file
 
 - Getting started
+  - [Using man to learn more about applications][man]
   - [Installing applications using apt][apt]
   - [Basic Usage of 'ls' Command in Linux With Examples][ls]
   - [HowTo: Use pwd Command In Linux / UNIX][pwd]
@@ -32,6 +33,8 @@ With this you will be able to:
   - [Live hosts scanning with Nmap][ns2]
   - [The Art of Port Scanning - by Fyodor][nps1]
   - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
+ - Advanced Guide To Bash
+   - [An in-depth exploration of the art of shell scripting][absc]
 
 ### Batch file installation 
 
@@ -387,3 +390,5 @@ inactive.
    [apt]: <https://www.digitalocean.com/community/tutorials/how-to-manage-packages-in-ubuntu-and-debian-with-apt-get-apt-cache>
    [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
+   [absc]: <http://tldp.org/LDP/abs/html/>
+   [man]: <https://www.linux.com/blog/12-examples-decode-man-pages-linuxunix-0>
