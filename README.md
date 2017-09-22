@@ -35,7 +35,7 @@ With this you will be able to:
   - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
  - Advanced Scripting
    - [An in-depth exploration of the art of shell scripting][absc]
-   - [How to Pass Arguments to a Bash-Script] [patbc]
+   - [How to Pass Arguments to a Bash-Script][patbc]
 
 ### Batch file installation 
 
