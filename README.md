@@ -33,8 +33,9 @@ With this you will be able to:
   - [Live hosts scanning with Nmap][ns2]
   - [The Art of Port Scanning - by Fyodor][nps1]
   - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
- - Advanced Guide To Bash
+ - Advanced Scripting
    - [An in-depth exploration of the art of shell scripting][absc]
+   - [How to Pass Arguments to a Bash-Script] [patbc]
 
 ### Batch file installation 
 
@@ -392,3 +393,4 @@ inactive.
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
    [absc]: <http://tldp.org/LDP/abs/html/>
    [man]: <https://www.linux.com/blog/12-examples-decode-man-pages-linuxunix-0>
+   [patbc]: <https://www.lifewire.com/pass-arguments-to-bash-script-2200571>
