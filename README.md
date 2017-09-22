@@ -23,6 +23,7 @@ With this you will be able to:
 > file
 
 - Getting started
+  - [Using man to learn more about applications][man]
   - [Installing applications using apt][apt]
   - [Basic Usage of 'ls' Command in Linux With Examples][ls]
   - [HowTo: Use pwd Command In Linux / UNIX][pwd]
@@ -390,3 +391,4 @@ inactive.
    [ls]: <http://www.yourownlinux.com/2014/01/linux-ls-command-tutorial-with-examples.html>
    [pwd]: <https://www.cyberciti.biz/faq/pwd-linux-unix-command-examples/>
    [absc]: <http://tldp.org/LDP/abs/html/>
+   [man]: <https://www.linux.com/blog/12-examples-decode-man-pages-linuxunix-0>
