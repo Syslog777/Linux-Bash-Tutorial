@@ -3,17 +3,17 @@
 ![N|Solid](http://jon.dehdari.org/images/logos/bash.png)
 # Table of Contents
  - [About Bash-101](#about-bash-101)
- - Getting started
+ #### Getting started
   - [Using man to learn more about applications][man]
   - [Installing applications using apt][apt]
   - [Basic Usage of 'ls' Command in Linux With Examples][ls]
   - [HowTo: Use pwd Command In Linux / UNIX][pwd]
   - [Writing a Simple Bash Script][jzb]
-- Advanced Scripting
+#### Advanced Scripting
   - [Batch file installation](#batch-file-installation)
   - [An in-depth exploration of the art of shell scripting][absc]
   - [How to Pass Arguments to a Bash-Script][patbc]
-- Hacks
+#### Hacks
   - [Nmap Network Scanning][ns1]
   - [Live hosts scanning with Nmap][ns2]
   - [The Art of Port Scanning - by Fyodor][nps1]
