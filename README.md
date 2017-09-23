@@ -3,26 +3,7 @@
 ![N|Solid](http://jon.dehdari.org/images/logos/bash.png)
 # Table of Contents
  - [About Bash-101](#about-bash-101)
- - [Tutorials](#tutorials)
- - [Essential Linux Applications](#essential-linux-programs)
-
-##### About Bash-101
-  Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
-  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to "hack".
-
-With this you will be able to:
-  - Write and read Bash scripts
-  - Use the Linux terminal/command line
-  - Perform pentesting such as MiTM, sniffing and Wifi hacks
-  - And so much more
- 
-# Tutorials
-> All of the tutorials listed below have been proofread. If there
-> are any errors in any of the tutorials, please notify me by
-> forking a branch and inserting comments in the [README.md][rmf] 
-> file
-
-- Getting started
+ - Getting started
   - [Using man to learn more about applications][man]
   - [Installing applications using apt][apt]
   - [Basic Usage of 'ls' Command in Linux With Examples][ls]
@@ -42,6 +23,17 @@ With this you will be able to:
   - [LFI Vulnerability][lfics]
   - [Sick OS 1.1][soswt]
   - [Nbtscan sheet][nbtss]
+ - [Essential Linux Applications](#essential-linux-programs)
+
+##### About Bash-101
+  Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
+  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to "hack".
+
+With this you will be able to:
+  - Write and read Bash scripts
+  - Use the Linux terminal/command line
+  - Perform pentesting such as MiTM, sniffing and Wifi hacks
+  - And so much more
 
 ### Batch file installation 
 
@@ -407,4 +399,4 @@ inactive.
    [mit]: <https://opensource.org/licenses/MIT>
    
    ### Lisence
-     
+   [MIT][mit]  
