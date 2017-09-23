@@ -4,8 +4,7 @@
 # Table of Contents
  - [About Bash-101](#about-bash-101)
  - [Tutorials](#tutorials)
- - [Essential Linux Programs](#essential-linux-programs)
- - [Batch file installation](#batch-file-installation)
+ - [Essential Linux Applications](#essential-linux-programs)
 
 ##### About Bash-101
   Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
@@ -34,9 +33,15 @@ With this you will be able to:
   - [Live hosts scanning with Nmap][ns2]
   - [The Art of Port Scanning - by Fyodor][nps1]
   - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
- - Advanced Scripting
-   - [An in-depth exploration of the art of shell scripting][absc]
-   - [How to Pass Arguments to a Bash-Script][patbc]
+- Advanced Scripting
+  - [Batch file installation](#batch-file-installation)
+  - [An in-depth exploration of the art of shell scripting][absc]
+  - [How to Pass Arguments to a Bash-Script][patbc]
+- Hacks
+  - [Penetration Testing Cheat Sheet][ptcs]:
+  - [LFI Vulnerability][lfics]
+  - [Sick OS 1.1][soswt]
+  - [Nbtscan sheet][nbtss]
 
 ### Batch file installation 
 
@@ -395,3 +400,11 @@ inactive.
    [absc]: <http://tldp.org/LDP/abs/html/>
    [man]: <https://www.linux.com/blog/12-examples-decode-man-pages-linuxunix-0>
    [patbc]: <https://www.lifewire.com/pass-arguments-to-bash-script-2200571>
+   [ptcs]: <https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/>
+   [lfics]: <https://highon.coffee/blog/lfi-cheat-sheet/>
+   [soswt]: <https://highon.coffee/blog/sickos-1-walkthrough/>
+   [nbtss]: <https://highon.coffee/blog/nbtscan-cheat-sheet/>
+   [mit]: <https://opensource.org/licenses/MIT>
+   
+   ### Lisence
+     
