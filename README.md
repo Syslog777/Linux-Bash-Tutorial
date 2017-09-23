@@ -9,16 +9,15 @@
   - [Basic Usage of 'ls' Command in Linux With Examples][ls]
   - [HowTo: Use pwd Command In Linux / UNIX][pwd]
   - [Writing a Simple Bash Script][jzb]
-- Nmap
-  - [Nmap Network Scanning][ns1]
-  - [Live hosts scanning with Nmap][ns2]
-  - [The Art of Port Scanning - by Fyodor][nps1]
-  - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
 - Advanced Scripting
   - [Batch file installation](#batch-file-installation)
   - [An in-depth exploration of the art of shell scripting][absc]
   - [How to Pass Arguments to a Bash-Script][patbc]
 - Hacks
+  - [Nmap Network Scanning][ns1]
+  - [Live hosts scanning with Nmap][ns2]
+  - [The Art of Port Scanning - by Fyodor][nps1]
+  - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
   - [Penetration Testing Cheat Sheet][ptcs]:
   - [LFI Vulnerability][lfics]
   - [Sick OS 1.1][soswt]
