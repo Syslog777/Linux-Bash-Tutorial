@@ -8,7 +8,8 @@
  - [Batch file installation](#batch-file-installation)
 
 ##### About Bash-101
-  Bash is the command language interpreter or shell script interpreter for the GNU operating system. This guide is designed to as a all-in-one guide for Linux noobs and pros alike.
+  Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
+  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to "hack".
 
 With this you will be able to:
   - Write and read Bash scripts
