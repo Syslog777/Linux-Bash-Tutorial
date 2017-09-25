@@ -26,7 +26,8 @@
 
 ##### About Bash-101
   Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
-  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to "hack".
+  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to make Linux do what you
+  want it to do.
 
 With this you will be able to:
   - Write and read Bash scripts
