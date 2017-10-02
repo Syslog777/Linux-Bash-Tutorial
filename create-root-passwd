@@ -1,0 +1,4 @@
+#!/bin/bash
+#The Linux OS root account usually does not have a password, so I was taught to write this script.
+sudo password root
+#Enter the password twice and please do not forget it.
