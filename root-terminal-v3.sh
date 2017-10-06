@@ -4,5 +4,5 @@
 #Reference: https://unix.stackexchange.com/questions/52344/shell-script-to-become-root
 spawn su -l root -
 expect "Password: "
-send "JK6MousePadFloorboardHat$$\r"
+send "password\r"
 interact
