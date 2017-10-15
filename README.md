@@ -7,6 +7,14 @@
 
 
 # Essential Linux Programs
+
+ - gt is a program that is used to evaluate expressions. 
+ Usage:
+ > sh
+if INTEGER1 -gt INTEGER2 then
+do
+ 
+fi
     
  - Nmap ("Network Mapper") is an open source tool for network exploration
 and security auditing. It was designed to rapidly scan large networks,
