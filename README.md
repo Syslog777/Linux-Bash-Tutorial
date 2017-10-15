@@ -4,24 +4,7 @@
 # Table of Contents
  - [About Bash-101](#about-bash-101)
  #### Commands
-  - [ls][ls]
-  - [gt][gt]
 
-### Batch file installation 
-
-This script installs all most of the
-essential applications in a semi-automated manner.
-Here are the steps to making this script work on your Linux
-computer:
- - Create a file named "install_all.sh"
- - Open that file, then copy the code below and paste it
-   into that file.
- - Save the file, then open up a terminal in the same place
-   the file is in. You should be able to see the file if you
-   type "ls" from within the console.
- - Now type "chmod u+x". This will make the file executable.
- - Next, place this file in the "/bin" directory.
- - Lastly, type install_all.sh in your terminal.
 
 # Essential Linux Programs
     
