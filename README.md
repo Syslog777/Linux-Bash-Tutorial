@@ -3,37 +3,9 @@
 ![N|Solid](http://jon.dehdari.org/images/logos/bash.png)
 # Table of Contents
  - [About Bash-101](#about-bash-101)
- #### Getting started
-  - [Using man to learn more about applications][man]
-  - [Installing applications using apt][apt]
-  - [Basic Usage of 'ls' Command in Linux With Examples][ls]
-  - [HowTo: Use pwd Command In Linux / UNIX][pwd]
-  - [Writing a Simple Bash Script][jzb]
-#### Advanced Scripting
-  - [Batch file installation](#batch-file-installation)
-  - [An in-depth exploration of the art of shell scripting][absc]
-  - [How to Pass Arguments to a Bash-Script][patbc]
-#### Hacks
-  - [Nmap Network Scanning][ns1]
-  - [Live hosts scanning with Nmap][ns2]
-  - [The Art of Port Scanning - by Fyodor][nps1]
-  - [Open Port Scanning and OS Detection with Nmap in Kali Linux][nps2]
-  - [Penetration Testing Cheat Sheet][ptcs]:
-  - [LFI Vulnerability][lfics]
-  - [Sick OS 1.1][soswt]
-  - [Nbtscan sheet][nbtss]
- - [Essential Linux Applications](#essential-linux-programs)
-
-##### About Bash-101
-  Bash is the command language interpreter or shell script interpreter for the GNU operating system. Every pentester
-  that uses Linux, usually uses Bash. This guide is here to show you some of the basics of how to make Linux do what you
-  want it to do.
-
-With this you will be able to:
-  - Write and read Bash scripts
-  - Use the Linux terminal/command line
-  - Perform pentesting such as MiTM, sniffing and Wifi hacks
-  - And so much more
+ #### Commands
+  - [ls][ls]
+  - [gt][gt]
 
 ### Batch file installation 
 
@@ -50,28 +22,6 @@ computer:
  - Now type "chmod u+x". This will make the file executable.
  - Next, place this file in the "/bin" directory.
  - Lastly, type install_all.sh in your terminal.
-```sh
-#!/bin/bash
-myarray=(chkrootkit etherape nikto ettercap-graphical rkhunter
-p0f nmap aircrackng netdiscover reaver nbtscan macchanger synaptic
-firehol htop git get-config nano apt dpkg logkeys denyhosts tiger
-lynis away xtrlock clamtk zenmap lua5.1 sshd dsniff yum mate-terminal
-samba-common-bin aircrack-ng iprange cmake linuxlogo)
-printf "
-Produced by
-    ____  _ __  ______          __         
-   / __ )(_) /_/ ____/___  ____/ /__  _____
-  / __  / / __/ /   / __ \/ __  / _ \/ ___/
- / /_/ / / /_/ /___/ /_/ / /_/ /  __/ /    
-/_____/_/\__/\____/\____/\__,_/\___/_/ 
-"
-sudo su
-
-for program in "${myarray[@]}" 
-do
-    sudo apt-get install $program
-done
-```
 
 # Essential Linux Programs
     
@@ -85,6 +35,9 @@ filters/firewalls are in use, and dozens of other characteristics. While
 Nmap is commonly used for security audits, many systems and network
 administrators find it useful for routine tasks such as network inventory,
 managing service upgrade schedules, and monitoring host or service uptime. 
+
+Usage:
+> sh nmap google.com -v -A
 
 
 - netdiscover is an active/passive  arp  reconnaissance  tool,  initially
